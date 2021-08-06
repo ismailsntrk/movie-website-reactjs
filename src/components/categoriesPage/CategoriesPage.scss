@@ -1,0 +1,57 @@
+.item-cont {
+  display: grid;
+  margin-top: 2em;
+  width: 80%;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: repeat(3, 30em);
+  
+}
+
+.item-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+
+#pagi{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+}
+
+.category_main {
+  text-align: center;
+  width: 100%;
+  background-color: #495057;
+}
+
+.filter_area {
+  width: 100%;
+  height: 100%;
+}
+
+#main_row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.genre_div {
+  width: 12%;
+}
+
+.item_div {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 90%;
+}
+
+#posters{
+ margin-bottom: 4em;
+
+}

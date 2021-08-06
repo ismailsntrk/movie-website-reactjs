@@ -1,0 +1,38 @@
+#movie-main{
+    
+    background-color: #EDF2F4;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#movie-cont{
+    width: 70%;
+   margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#movie-player{
+    width: 100%;
+}
+
+#about-cont{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    
+    justify-content: left;
+    align-items: center;
+}
+
+#mov-about{
+    margin-left: 5em;
+}
